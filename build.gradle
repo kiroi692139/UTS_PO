@@ -1,0 +1,18 @@
+// Project-level build.gradle
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.5.0' // Pastikan versi ini sesuai
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' } // Jika Anda menggunakan JitPack
+    }
+}

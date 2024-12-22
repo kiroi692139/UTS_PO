@@ -1,0 +1,10 @@
+// settings.gradle
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' } // Jika Anda menggunakan JitPack
+    }
+}
+
+rootProject.name = 'AIR-READING'
